@@ -1,16 +1,25 @@
-# Projektmall
+# Minesweeper
+
+Nyckelord: Datastrukturer, rekursion, (grafik)
 
 ## Uppgiften
 
 ### Lydelse
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tincidunt justo. Vivamus eget malesuada felis. Etiam euismod mollis lobortis. Etiam at pellentesque diam. Donec suscipit nulla arcu, consequat iaculis neque maximus non. Proin laoreet tortor nulla, in pharetra lorem laoreet id. Vestibulum condimentum, neque vel suscipit tempor, felis erat consectetur est, a bibendum metus enim et odio. Vivamus laoreet eu eros id efficitur. Nunc ac urna gravida, dignissim libero vel, pellentesque dui. Maecenas arcu enim, venenatis eu purus id, condimentum posuere lorem. Nunc pharetra, elit at convallis ultricies, nunc risus fermentum nisl, sit amet molestie nisl urna eu arcu. Nunc molestie elit ullamcorper nisl pharetra dignissim. Praesent pretium blandit ornare.
+Ett toppenjobb med rejäl OBU (Obekväm Arbetsuppgift) är att bli minröjare. Som minröjare får du en trofast minröjninghund som hjälper dig att inte kliva på en enda mina. Din arbetsplats är ett rutnät på X gånger Y rutor, där X är bredden och Y är höjden. I detta rutnät finns det minor nedgrävda som du ska markera. Varje gång du markerar en ruta så skäller din hund så många gånger som det finns minor runtom platsen. På så vis kan du lista ut var du kan fortsätta markera rutor som är säkra. Finns inga minor runt den platsen som hunden blir ombedd att markera kommer den att markera alla rutor runtomkring tills det upptäcks minor.
 
-### Exempel
+Alltså, du ska helt enkelt koda det klassiska spelet "Minesweeper".
 
-Duis lobortis porta orci, et scelerisque diam ornare nec. Pellentesque eget suscipit ligula, et ultrices tortor. Ut congue, tellus in rutrum interdum, massa est convallis eros, at blandit quam augue vitae libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nisi libero, pretium vel tincidunt mollis, accumsan at eros. Nunc eu congue ex, quis sodales enim. Aliquam a sem hendrerit, vehicula enim ut, maximus risus. Aenean ac lobortis justo. Aenean molestie vehicula dolor, at ullamcorper nisi eleifend a. Quisque egestas est vulputate, sagittis leo id, fermentum ante. Pellentesque cursus nulla nibh, id luctus diam laoreet in.
+Du väljer själv huruvida detta görs i en grafisk miljö såsom graphics, tkinter eller turtle, eller om du vill att det sker i terminalen. Kravet på programmet är att:
+
+- Spelet är vunnet då alla rutor är uppgrävda och alla minor som finns har blivit korrekt flaggade.
+- Spelet är förlorat då du gräver upp en mina.
+- Du ska kunna välja när spelet startar hur stor spelplanen ska vara samt hur många minor det ska finnas.
+- Spelet ska gå att köra igen när spelet är slut.
 
 ### Krav för olika betyg
+
+Uppgiften som den lyder så är den på en A-nivå gällande svårighetsgrad, både som grafiskt men även som CLI.
 
 ## Dokumentation & Planering
 
@@ -31,3 +40,7 @@ I första stadiet av projektet bör du även skissa upp ett flödesschema i för
 ## Författare
 
 Niclas Lund
+
+## Disclaimer
+
+Uppgiften (eller inspiration till den) är ärligt stulen från EECS-skolan (gamla CSC) och kursen DD1314.
